@@ -6,7 +6,7 @@
 </head>
 <body>
 	<form action="prueba.php" method="POST">
-		<label>Sueldo</label>
+		<label>Sueldo del trabajador 222</label>
 		<input type="number" step="0.01" name="Sueldo" id="Sueldo">
 		<button type="submit">Enviar</button>
 	</form>
