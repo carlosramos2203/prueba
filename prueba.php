@@ -23,11 +23,11 @@
 
 		if ($sueldo > 5000.99) {
 			// code...
-			$descuento = $sueldo * 0.1;
+			$descuento = $sueldo * 0.2;
 			$sueldo_neto = $sueldo - $descuento;
 			echo 'El sueldo neto del trabajador es S/.'.$sueldo_neto;
 		} else {
-			$descuento = $sueldo * 0.03;
+			$descuento = $sueldo * 0.05;
 			$sueldo_neto = $sueldo - $descuento;
 			echo 'El sueldo neto del trabajador es S/.'.$sueldo_neto;
 		}
