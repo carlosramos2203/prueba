@@ -6,7 +6,7 @@
 </head>
 <body>
 	<form action="prueba.php" method="POST">
-		<label>Sueldo del Operario</label>
+		<label>Sueldo del Operario para el mes de diciembre del 2022</label>
 		<input type="number" step="0.01" name="Sueldo" id="Sueldo">
 		<button type="submit">Enviar</button>
 	</form>
